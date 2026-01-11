@@ -19,5 +19,13 @@ def min_cancelled_bookings(intervals):
 
     return removals
 
-intervals = [[1, 2], [2, 3], [3, 4], [1, 3]]
-print(min_cancelled_bookings(intervals))
+print()
+
+intervals1 = [[1, 2], [2, 3], [3, 4], [1, 3]]
+print("Example 1 Output:", min_cancelled_bookings(intervals1))
+
+intervals2 = [[1, 3], [1, 3], [1, 3]]
+print("Example 2 Output:", min_cancelled_bookings(intervals2))      
+
+intervals3 = [[1, 2], [5, 10], [18, 35]]
+print("Example 3 Output:", min_cancelled_bookings(intervals3))
