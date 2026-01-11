@@ -17,11 +17,10 @@ def can_balance_scales(arr):
     return dp[target]
 
 
-#Driver code to test the function
+# Driver code to test the function
 
 if __name__ == "__main__":
-    # Test Case 1
-    arr1 = [[1,5,11,5],[1,3,5],[2,2,2,2]]
+    arr1 = [[1,5,11,5],[1,3,5],[2,2,2,2]] # test case
     print()
     for arr in arr1:
         print("Input:", arr)
