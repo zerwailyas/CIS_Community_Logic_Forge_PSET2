@@ -21,7 +21,8 @@ def find_longest_mirror_length(s):
 
 # Driver code to test the function
 print()
-print(find_longest_mirror_length("bbabcbcab"))  
-print(find_longest_mirror_length("MAPAM"))      
-print(find_longest_mirror_length("ABCD"))      
-print(find_longest_mirror_length("GEEKS"))  
+print(find_longest_mirror_length("bbabcbcab"))  # Output: 7
+print(find_longest_mirror_length("MAPAM"))      # Output: 5
+print(find_longest_mirror_length("ABCD"))      # Output: 1
+print(find_longest_mirror_length("GEEKS"))     # Output: 3
+print()
