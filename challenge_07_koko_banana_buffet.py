@@ -18,6 +18,12 @@ def calculate_minimum_speed(piles, k):
 
     return answer
 
+# Example 1
 piles = [5, 10, 3]
 k = 4
-print(calculate_minimum_speed(piles, k))  # Output: 5
+print("Output 1:", calculate_minimum_speed(piles, k))  # Output: 5
+
+# Example 2
+piles2 = [5, 10, 15, 20]
+k2 = 7
+print("Output 2:", calculate_minimum_speed(piles2, k2)) # Output: 8
