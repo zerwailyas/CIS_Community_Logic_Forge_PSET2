@@ -28,7 +28,12 @@ def maximize_freelance_profit(deadlines, profits):
 
     return [total_jobs, total_profit]
 
-# Example usage
+# Example 1
 deadlines = [4, 1, 1, 1]
 profits = [20, 10, 40, 30]
-print(maximize_freelance_profit(deadlines, profits))
+print("Example 1 Output:", maximize_freelance_profit(deadlines, profits))
+
+# Example 2
+deadlines2 = [2, 1, 2, 1, 1]
+profits2 = [100, 19, 27, 25, 15]
+print("Example 2 Output:", maximize_freelance_profit(deadlines2, profits2))
